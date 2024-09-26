@@ -1,0 +1,34 @@
+@font-face{
+    font-family:'Extra';
+    src: url('Gobold.otf');
+}
+*{
+    box-sizing: border-box;
+}
+html{
+    line-height: 1;
+    font-family: 'Arial';
+}
+body{
+    background: #FF7A67;
+    font-family: 'Extra';
+    max-width: 1367px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+}
+.container-lg{
+    display: grid;
+    place-items: center;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.teks{
+    font-size: 20px;
+}
+.teks .icon h1{
+    font-size: 60px;
+}
